@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-08T16:17:23 IST" name="Suite" finished-at="2022-12-08T16:17:39 IST" duration-ms="16127">
+    <groups>
+    </groups>
+    <test started-at="2022-12-08T16:17:23 IST" name="Test Chrome" finished-at="2022-12-08T16:17:39 IST" duration-ms="16127">
+      <class name="com.qa.testscripts.SeleniumSearch">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.SeleniumSearch@635eaaf1]" started-at="2022-12-08T16:17:23 IST" name="Setup" finished-at="2022-12-08T16:17:36 IST" duration-ms="13693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Search()[pri:0, instance:com.qa.testscripts.SeleniumSearch@635eaaf1]" started-at="2022-12-08T16:17:36 IST" name="Search" finished-at="2022-12-08T16:17:38 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testscripts.SeleniumSearch@635eaaf1]" started-at="2022-12-08T16:17:38 IST" name="TearDown" finished-at="2022-12-08T16:17:39 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testscripts.SeleniumSearch -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
